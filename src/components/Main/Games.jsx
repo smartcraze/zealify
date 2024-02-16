@@ -24,6 +24,7 @@ function Games() {
           width="750"
           height="500"
           controls
+          autoPlay
           onEnded={handleVideoEnded}
           key={number} // Add a unique key to force reload the video element
         >
