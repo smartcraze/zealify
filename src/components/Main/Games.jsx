@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 function Games() {
   const [number, setNumber] = useState(1);
+  const [right, setRight] = useState(null);
 
   const handlePrev = () => {
     if (number > 1) {
@@ -16,6 +17,9 @@ function Games() {
   const handleVideoEnded = () => {
     setNumber((prevNumber) => prevNumber + 1);
   };
+  const handleTrue = ()=>{
+    setRight=
+  }
 
   return (
     <>
@@ -24,7 +28,7 @@ function Games() {
           width="750"
           height="500"
           controls
-          autoPlay
+          // autoPlay
           onEnded={handleVideoEnded}
           key={number} // Add a unique key to force reload the video element
         >
@@ -42,6 +46,17 @@ function Games() {
         <button type="button" class="btn btn-success " onClick={handleNext}>
           Next
         </button>
+      </div>
+      <div>
+      <button type="button" class="btn btn-success " onClick={handleTrue}>
+          True
+        </button>
+      <button type="button" class="btn btn-success " onClick={handleNext}>
+          False
+        </button>
+        <p>
+          Your Points is : 
+        </p>
       </div>
     </>
   );
