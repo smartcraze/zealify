@@ -4,18 +4,19 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Header/Navbar';
 import About from './components/Header/About';
-import Home from './components/Main/Home';
+// import Home from './components/Main/Home';
 import Profile from './components/Main/Profile';
+import Hero from './components/Main/Hero';
 
 function App() {
 const router=createBrowserRouter([
   {
     path:"/home",
-    element: <> <Navbar/><Home/></>
+    element: <> <Navbar/><Hero/></>
   },
   {
     path:"/",
-    element: <> <Navbar/><Home/></>
+    element: <> <Navbar/><Hero/></>
   },
   {
     path:"/about",
@@ -30,6 +31,7 @@ const router=createBrowserRouter([
   return (
     <>
       <RouterProvider router={router} />
+      
     </>
   )
 }
