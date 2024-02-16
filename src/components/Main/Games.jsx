@@ -28,14 +28,19 @@ function Games() {
           onEnded={handleVideoEnded}
           key={number} // Add a unique key to force reload the video element
         >
-          <source
-            src={`/public/level1/vid${number}.mp4`}
-            type="video/mp4"
-          />
+          <source src={`/public/level1/vid${number}.mp4`} type="video/mp4" />
         </video>
-        <button onClick={handleNext}>Next</button>
-        <button onClick={handlePrev} disabled={number === 1}>
+       
+        <button
+          onClick={handlePrev}
+          disabled={number === 1}
+          type="button"
+          class="btn btn-warning"
+        >
           Previous
+        </button>
+        <button type="button" class="btn btn-success " onClick={handleNext}>
+          Next
         </button>
       </div>
     </>
