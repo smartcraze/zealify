@@ -1,16 +1,6 @@
 import React, { useState } from "react";
 
 function Games() {
-  const [number, setNumber] = useState(1);
-
-  const handlePrev = () => {
-    setNumber((prevNumber) => prevNumber - 1);
-  };
-
-  const handleNext = () => {
-    setNumber((prevNumber) => prevNumber + 1);
-  };
-
   return (
     <>
       <div className="App">
