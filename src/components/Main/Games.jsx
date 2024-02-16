@@ -8,11 +8,13 @@ function Games() {
   const handlePrev = () => {
     if (number > 1) {
       setNumber((prevNumber) => prevNumber - 1);
+      console.log("previous");
     }
   };
 
   const handleNext = () => {
     setNumber((prevNumber) => prevNumber + 1);
+    console.log("next");
   };
 
   const handleVideoEnded = () => {
