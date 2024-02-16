@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Header/Navbar';
 import About from './components/Header/About';
 import Home from './components/Main/Home';
+// import Games from './components/Main/Games';
+import Gamecard from './components/Main/Gamecard';
 import Games from './components/Main/Games';
 
 function App() {
@@ -22,8 +24,12 @@ const router=createBrowserRouter([
     element: <> <Navbar/><About/></>
   },
   {
-    path:"/games",
+    path:"/play",
     element: <> <Navbar/><Games/></>
+  },
+  {
+    path:"/games",
+    element: <> <Navbar/><Gamecard/></>
   }
 ])
 
