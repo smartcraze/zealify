@@ -4,27 +4,27 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Header/Navbar';
 import About from './components/Header/About';
-// import Home from './components/Main/Home';
-import Profile from './components/Main/Profile';
-import Hero from './components/Main/Hero';
+import Home from './components/Main/Home';
+
+import Games from './components/Main/Games';
 
 function App() {
 const router=createBrowserRouter([
   {
     path:"/home",
-    element: <> <Navbar/><Hero/></>
+    element: <> <Navbar/><Home/></>
   },
   {
     path:"/",
-    element: <> <Navbar/><Hero/></>
+    element: <> <Navbar/><Home/></>
   },
   {
     path:"/about",
     element: <> <Navbar/><About/></>
   },
   {
-    path:"/profile",
-    element: <> <Navbar/><Profile/></>
+    path:"/games",
+    element: <> <Navbar/><Games/></>
   }
 ])
 
