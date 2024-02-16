@@ -17,7 +17,7 @@ function Games() {
 
   const handleNext = () => {
     setCurrentQuestion((prevNumber) => prevNumber + 1);
-    setNumber((prevNumber) => prevNumber + 1); // Update the number for the next video
+    setNumber((prevNumber) => prevNumber + 1);
   };
 
   const handleTrue = () => {
