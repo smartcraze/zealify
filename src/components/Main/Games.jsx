@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function Games() {
+  const [Reward, setReward] = useState(0);
   const [number, setNumber] = useState(1);
   const [right, setRight] = useState(null);
 
@@ -48,7 +49,7 @@ function Games() {
         </button>
       </div>
       <div>
-      <button type="button" class="btn btn-success " onClick={handleTrue}>
+      <button type="button" class="btn btn-success " >
           True
         </button>
       <button type="button" class="btn btn-success " onClick={handleNext}>
