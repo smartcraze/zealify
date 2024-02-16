@@ -52,14 +52,14 @@ function Games() {
           Next
         </button>
       </div>
-      <div>
+      <div className="container">
         <p>
           is suraj intelligent?
         </p>
       <button type="button" class="btn btn-success " onClick={handleTrue} >
           True
         </button>
-      <button type="button" class="btn btn-success " onClick={handleFalse}>
+      <button type="button" class="btn btn-primary " onClick={handleFalse}>
           False
         </button>
         <p>
