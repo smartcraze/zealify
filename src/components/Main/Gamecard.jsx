@@ -6,7 +6,7 @@ function Gamecard() {
   return (
     <>
       {/* game1 */}
-      <div className="container">
+      <div className="d-flex flex-wrap justify-content-around ">
         <div className="card" style={{ width: "18rem" }}>
           <img
             src="public\poster-game.jpg"
@@ -14,18 +14,39 @@ function Gamecard() {
             alt="..."
           />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">SpellBee</h5>
             <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
             {/* Replaced <a> tag with <Link> component */}
             <Link to="/play" className="btn btn-primary">
-              Play Now{" "}
+              Play Now
             </Link>
           </div>
         </div>
-      </div>
+
+        {/* card2 game 2 */}
+          <div className="card" style={{ width: "18rem" }}>
+            <img
+              src="public\tictac.jpg"
+              className="card-img-top"
+              alt="..."
+            />
+            <div className="card-body">
+              <h5 className="card-title">Tic-Tac-Toe</h5>
+              <p className="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              {/* Replaced <a> tag with <Link> component */}
+              <Link to="/playTictac" className="btn btn-primary">
+                Play Now
+              </Link>
+            </div>
+          </div>
+        </div>
+      
     </>
   );
 }
