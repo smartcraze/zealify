@@ -3,7 +3,9 @@ import React from 'react'
 function About() {
   return (
     <div>
-      <h1>I am about</h1>
+     <div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
     </div>
   )
 }
