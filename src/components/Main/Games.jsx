@@ -18,10 +18,14 @@ function Games() {
   const handleVideoEnded = () => {
     setNumber((prevNumber) => prevNumber + 1);
   };
-  // const handleTrue = ()=>{
-  //   setRight=
-  // };
-
+  const handleTrue = () => {
+    setRight(true); // Set the right state to true
+    setReward((prevReward) => prevReward + 1); // Increment the reward
+  };
+  const handleFalse = () => {
+    setRight(false); 
+    setReward((prevReward) => prevReward - 1);
+  };
   return (
     <>
       <div className="App">
@@ -49,14 +53,17 @@ function Games() {
         </button>
       </div>
       <div>
-      <button type="button" class="btn btn-success " >
+        <p>
+          is suraj intelligent?
+        </p>
+      <button type="button" class="btn btn-success " onClick={handleTrue} >
           True
         </button>
-      <button type="button" class="btn btn-success " onClick={handleNext}>
+      <button type="button" class="btn btn-success " onClick={handleFalse}>
           False
         </button>
         <p>
-          Your Points is : 
+          Your Points is {Reward} : 
         </p>
       </div>
     </>
