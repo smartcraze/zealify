@@ -69,7 +69,7 @@ const Home = () => {
         </button>
       </div>
       <div className="Container">
-        <h1 className="container" style={{ textAlign: "center" }}>
+        <h1 className="container text-purple" style={{ textAlign: "center" }}>
           Laws of Child
         </h1>
         <div className="container-fluid">
