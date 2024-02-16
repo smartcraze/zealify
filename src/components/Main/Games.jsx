@@ -64,7 +64,7 @@ function Games() {
           </button>
         </div>
       </div>
-      <div className="">
+      <div className="bg-red">
         {(number === 3 || number === 6 || number === 9) && (
           <div>
             <h1 style={{ textAlign: "center" }}>
