@@ -12,6 +12,7 @@ const Home = () => {
   };
 
   return (
+    <>
     <div id="carouselExampleControls" className="carousel slide" style={{ height: '80vh' }} data-bs-ride="carousel">
       <div className="carousel-inner" style={{ height: '100%' }}>
         <div className={`carousel-item ${activeIndex === 0 ? 'active' : ''}`}>
@@ -33,6 +34,16 @@ const Home = () => {
         <span className="visually-hidden">Next</span>
       </button>
     </div>
+    <div className='Container'> 
+    <h1 className='container'style={{textAlign:"center"}}>Laws of Child</h1>
+    <div>
+      {/* card */}
+      
+
+
+    </div>
+    </div>
+    </>
   );
 };
 
