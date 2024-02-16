@@ -17,9 +17,9 @@ function Games() {
   const handleVideoEnded = () => {
     setNumber((prevNumber) => prevNumber + 1);
   };
-  const handleTrue = ()=>{
-    setRight=
-  }
+  // const handleTrue = ()=>{
+  //   setRight=
+  // };
 
   return (
     <>
