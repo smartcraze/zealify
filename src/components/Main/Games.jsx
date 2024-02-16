@@ -17,11 +17,18 @@ function Games() {
 
   const handleNext = () => {
     setCurrentQuestion((prevNumber) => prevNumber + 1);
-    setNumber((prevNumber) => prevNumber + 1); 
+    setNumber((prevNumber) => prevNumber + 1); // Update the number for the next video
   };
-  // const handleTrue = ()=>{
-  //   setRight=
-  // };
+
+  const handleTrue = () => {
+    setScore((prevScore) => prevScore + 1);
+    handleNext();
+  };
+
+  const handleFalse = () => {
+    setScore((prevScore) => prevScore - 1);
+    handleNext();
+  };
 
   return (
     <>
@@ -56,15 +63,27 @@ function Games() {
         </button>
       </div>
       <div>
-      <button type="button" class="btn btn-success " >
-          True
-        </button>
-      <button type="button" class="btn btn-success " onClick={handleNext}>
-          False
-        </button>
-        <p>
-          Your Points is : 
-        </p>
+        {(number === 3 || number === 6 || number === 9) && (
+          <div>
+            <p>Question {currentQuestion}: are you gay?</p>
+            <button
+              onClick={handleTrue}
+              type="button"
+              className="btn btn-success"
+            >
+              True
+            </button>
+            <button
+              onClick={handleFalse}
+              type="button"
+              className="btn btn-danger"
+            >
+              False
+            </button>
+          </div>
+        )}
+
+        <p>Your Score: {score}</p>
       </div>
     </>
   );
