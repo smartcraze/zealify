@@ -12,16 +12,16 @@ const Home = () => {
   };
 
   return (
-    <div id="carouselExampleControls  imageChild" className="carousel slide" data-bs-ride="carousel">
-      <div className="carousel-inner">
+    <div id="carouselExampleControls" className="carousel slide" style={{ height: '80vh' }} data-bs-ride="carousel">
+      <div className="carousel-inner" style={{ height: '100%' }}>
         <div className={`carousel-item ${activeIndex === 0 ? 'active' : ''}`}>
-          <img src="public\bg3.jpg" className="d-block w-100 h-80" alt="Slide 1" />
+          <img src="public\bg3.jpg" className="d-block w-100" alt="Slide 1" style={{ height: '100%', objectFit: 'cover' }} />
         </div>
         <div className={`carousel-item ${activeIndex === 1 ? 'active' : ''}`}>
-          <img src="public\bg2.jpg" className="d-block w-100" alt="Slide 2" />
+          <img src="public\bg2.jpg" className="d-block w-100" alt="Slide 2" style={{ height: '100%', objectFit: 'cover' }} />
         </div>
         <div className={`carousel-item ${activeIndex === 2 ? 'active' : ''}`}>
-          <img src="public\img1.jpg" className="d-block w-100" alt="Slide 3" />
+          <img src="public\img1.jpg" className="d-block w-100" alt="Slide 3" style={{ height: '100%', objectFit: 'cover' }} />
         </div>
       </div>
       <button className="carousel-control-prev" type="button" onClick={handlePrev}>
