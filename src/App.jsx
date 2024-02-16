@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Header/Navbar';
 import About from './components/Header/About';
 import Home from './components/Main/Home';
-
 import Games from './components/Main/Games';
 
 function App() {
