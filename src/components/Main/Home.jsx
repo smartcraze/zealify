@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Lawcard from "../Cards/Lawcard";
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -16,7 +17,8 @@ const Home = () => {
       <div
         id="carouselExampleControls"
         className="carousel slide"
-        style={{ height: "70vh" }}
+        style={{ height: "70vh" ,
+           backgroundColor:"red"                               }}
         data-bs-ride="carousel"
       >
         <div className="carousel-inner" style={{ height: "100%" }}>
@@ -72,49 +74,53 @@ const Home = () => {
         <h1 className="container text-purple" style={{ textAlign: "center" }}>
           Laws of Child
         </h1>
-        <div className="container-fluid">
-          <div className="d-flex flex-wrap justify-content-around">
-            <div className="card" style={{ width: "18rem" }}>
-              <img src="..." className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
-            </div>
-            <div className="card" style={{ width: "18rem" }}>
-              <img src="..." className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
-            </div>
-            <div className="card" style={{ width: "18rem" }}>
-              <img src="..." className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+      </div>
+      {/* cards  */}
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "70vh",
+          backgroundColor: "#ebcfa0",
+        }}
+      >
+        <Lawcard
+          imageUrl="public\law1.jpg"
+          title="Right to Education"
+          text="Children have the right to an education. School is
+          a great place for children to learn about their
+          world, and decide how they might want to change
+          it, so that it’s better for everybody.."
+          buttonLink="/page1"
+        />
+        <Lawcard
+          imageUrl="public\law1.jpg"
+          title="Right to Education"
+          text="Children have the right to an education. School is
+          a great place for children to learn about their
+          world, and decide how they might want to change
+          it, so that it’s better for everybody.."
+          buttonLink="/page1"
+        />
+        <Lawcard
+          imageUrl="public\law1.jpg"
+          title="Right to Education"
+          text="Children have the right to an education. School is
+          a great place for children to learn about their
+          world, and decide how they might want to change
+          it, so that it’s better for everybody.."
+          buttonLink="/page1"
+        />
+        <Lawcard
+          imageUrl="public\law1.jpg"
+          title="Right to Education"
+          text="Children have the right to an education. School is
+          a great place for children to learn about their
+          world, and decide how they might want to change
+          it, so that it’s better for everybody.."
+          buttonLink="/page1"
+        />
       </div>
     </>
   );

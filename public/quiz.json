@@ -1,112 +1,112 @@
 [
     {
         "id": "01",
-        "question" : "Which of the following is the correct name of React.js?",
+        "question": "Why do you think it’s important to go to school?",
         "options": [
-            "React",
-            "React.js",
-            "ReactJS",
-            "All of the above"
+            "To play",
+            "To learn new things",
+            "To eat lunch",
+            "To sleep"
         ],
-        "answer": "All of the above"
+        "answer": "To learn new things"
     },
     {
         "id": "02",
-        "question" : "Which of the following are the advantages of React.js?",
+        "question": "Why do you think every kid should be able to go to school?",
         "options": [
-            "React.js can increase the application's performance with Virtual DOM.",
-            "React.js is easy to integrate with other frameworks such as Angular, BackboneJS since it is only a view library.",
-            "React.js can render both on client and server side.",
+            "To make Friends",
+            "To learn new things",
+            "To play games",
             "All of the above"
         ],
         "answer": "All of the above"
     },
     {
         "id": "03",
-        "question" : "Which of the following is not a disadvantage of React.js?",
+        "question": "What is the best part of school?",
         "options": [
-            "React.js has only a view layer. We have put your code for Ajax requests, events and so on.",
-            "The library of React.js is pretty large.",
-            "The JSX in React.js makes code easy to read and write.",
-            "The learning curve can be steep in React.js."
+            "Going home time",
+            "Lunch time",
+            "Learning new things",
+            "Cleaning time"
         ],
-        "answer": "The JSX in React.js makes code easy to read and write."
+        "answer": "Learning new things"
     },
     {
         "id": "04",
-        "question" : "Which of the following command is used to install create-react-app?",
+        "question": "Why should you listen to your teacher at school?",
         "options": [
-            "npm install -g create-react-app",
-            "npx create-react-app my-app",
-            "npm install create-react-app",
-            "npm install -f create-react-app"
+            "Because they tell interesting stories",
+            "Because they teach new things",
+            "Because they give homework",
+            "Because they cook lunch"
         ],
-        "answer": "npx create-react-app my-app"
+        "answer": "Because they teach new things"
     },
     {
         "id": "05",
-        "question" : "What of the following is used in React.js to increase performance?",
+        "question": "What is the best way to learn new things?",
         "options": [
-            "Original DOM",
-            "Virtual DOM",
-            "Both A and B.",
-            "None of the above."
+            "By sleeping",
+            "By watching TV",
+            "By going to school",
+            "By eating lunch"
         ],
-        "answer": "Virtual DOM"
+        "answer": "By going to school"
     },
     {
         "id": "06",
-        "question" : "What is the default port where webpack-server runs?",
+        "question": "What can you learn from playing games?",
         "options": [
-            "3000",
-            "8080",
-            "3030",
-            "6060"
+            "How to cook",
+            "How to clean",
+            "How to share and work in a team",
+            "How to drive a car"
         ],
-        "answer": "3000"
+        "answer": "How to share and work in a team"
     },
     {
         "id": "07",
-        "question" : "How many numbers of elements a valid react component can return?",
+        "question": "Why is playtime important for kids?",
         "options": [
-            "1",
-            "2",
-            "3",
-            "Unlimited"
+            "It helps us learn",
+            "It helps us relax",
+            "It helps us make friends",
+            "It helps us sleep"
         ],
-        "answer": "1"
+        "answer": "It helps us learn"
     },
     {
         "id": "08",
-        "question" : "What is the declarative way to render a dynamic list of components based on values in an array?",
+        "question": "What is the declarative way to render a dynamic list of components based on values in an array?",
         "options": [
-            "Using the reduce array method",
-            "Using the <Each /> component",
-            "Using the Array.map() method",
-            "With a for/while loop"
+            "So you can play outside safely",
+            "So you can throw trash everywhere",
+            "So you can draw on the walls",
+            "So you can leave your toys everywhere"
         ],
-        "answer": "Using the Array.map() method"
+        "answer": "So you can play outside safely"
     },
     {
         "id": "09",
-        "question" : "What is a state in React?",
+        "question": "What does it mean to have the right to participate?",
         "options": [
-            "A permanent storage.",
-            "Internal storage of the component.",
-            "External storage of the component.",
-            "None of the above."
+            "You can join in games and activities",
+            "You can watch TV all day",
+            "You can eat all the candy",
+            "You can stay up as late as you want"
         ],
-        "answer": "Internal storage of the component."
+        "answer": "You can join in games and activities."
     },
     {
         "id": "10",
-        "question" : "What are the two ways to handle data in React?",
+        "question": "Why do you have the right to be loved and cared for?",
         "options": [
-            "State & Props",
-            "Services & Components",
-            "State & Services",
-            "State & Component"
+            "So you can feel happy",
+            "So you can get lots of presents",
+            "So you can stay up late",
+            "So you can eat lots of candy"
         ],
-        "answer": "State & Props"
+        "answer": "So you can feel happy"
     }
 ]
