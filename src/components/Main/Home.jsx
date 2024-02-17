@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Lawcard from "../Cards/Lawcard";
-// import Carousel from "../Header/Carousel";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
 
@@ -85,7 +84,7 @@ const Home = () => {
       </div>
       <div className="Container ">
         <h1 className="container text-purple" style={{ textAlign: "center" }}>
-          Laws of Child
+          ALLIES
         </h1>
       </div>
       {/* cards  */}
@@ -99,7 +98,7 @@ const Home = () => {
           height: "70vh",
           // backgroundImage: 'url("public\bglaw.jpg")',
           backgroundSize: "cover",
-          backgroundColor: "rgba(219, 202, 247, 0.8)",
+          backgroundColor: "rgba(245, 40, 145, 0.8)",
         }}
       >
         <Lawcard

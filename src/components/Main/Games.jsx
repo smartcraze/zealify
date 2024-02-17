@@ -46,12 +46,12 @@ function Games() {
   return (
     <>
       <div
-        className="App container bg-dark"
+        className="App container bg-"
         style={{ display: "flex", justifyContent: "center" }}
       >
         <video
-          width="750"
-          height="500"
+          width="900"
+          height="600"
           controls
           autoPlay
           onEnded={handleVideoEnded}

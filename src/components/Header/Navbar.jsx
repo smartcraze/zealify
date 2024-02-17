@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark">
+    <nav className="navbar navbar-expand-lg bg-info">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           <img src="public\zeal.png" style={{height:"50px", widows:"50px"}} alt="Logo" />

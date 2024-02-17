@@ -1,4 +1,4 @@
-Project Title: Zeal - Empowering Children Through Decision-Making Skills
+ # Project Title: Zeal - Empowering Children Through Decision-Making Skills
 
 Description:
 Zeal is an innovative platform dedicated to empowering children with essential decision-making skills. Our mission is to provide an engaging and interactive environment where children can learn, grow, and develop the confidence they need to navigate life's challenges. Through a combination of educational videos and interactive games, Zeal aims to instill resilience, critical thinking, and problem-solving abilities in children from all walks of life.

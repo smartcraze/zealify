@@ -1,14 +1,14 @@
 [
     {
         "id": "01",
-        "question": "Why do you think it’s important to go to school?",
+        "question": "If you see someone being left out while playing, what can you do?",
         "options": [
-            "To play",
-            "To learn new things",
-            "To eat lunch",
-            "To sleep"
+            "Laugh at them",
+            "Join in and exclude them too",
+            "Invite them to play with you",
+            "Ignore them"
         ],
-        "answer": "To learn new things"
+        "answer": "Invite them to play with you"
     },
     {
         "id": "02",
