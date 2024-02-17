@@ -53,7 +53,7 @@ function Gamecard() {
       <div className="d-flex flex-wrap justify-content-around ">
         <div className="card" style={{ width: "18rem" }}>
           <img
-            src="public\poster-game.jpg"
+            src="public\Quizeposter.jpg"
             className="card-img-top"
             alt="..."
           />
