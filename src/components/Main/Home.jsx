@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import Lawcard from "../Cards/Lawcard";
+// import Carousel from "../Header/Carousel";
+import Footer from "../Footer/Footer";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -11,7 +14,6 @@ const Home = () => {
   const handleNext = () => {
     setActiveIndex((prevIndex) => (prevIndex === 2 ? 0 : prevIndex + 1));
   };
-
   return (
     <>
       <div
@@ -23,7 +25,7 @@ const Home = () => {
         <div className="carousel-inner" style={{ height: "100%" }}>
           <div className={`carousel-item ${activeIndex === 0 ? "active" : ""}`}>
             <img
-              src="public\bg3.jpg"
+              src="public\backgcar.jpg"
               className="d-block w-100"
               alt="Slide 1"
               style={{ height: "100%", objectFit: "cover" }}
@@ -31,7 +33,7 @@ const Home = () => {
           </div>
           <div className={`carousel-item ${activeIndex === 1 ? "active" : ""}`}>
             <img
-              src="public\bg2.jpg"
+              src="public\carousel (2).jpg"
               className="d-block w-100"
               alt="Slide 2"
               style={{ height: "100%", objectFit: "cover" }}
@@ -69,6 +71,18 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+
+      <div className="container mt-5">
+        <div className="row justify-content-center">
+          <div className="col-md-6">
+            <div className="text-center">
+              <Link to="/games">
+                <button className="btn btn-success">Play Now</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="Container ">
         <h1 className="container text-purple" style={{ textAlign: "center" }}>
           Laws of Child
@@ -78,13 +92,14 @@ const Home = () => {
       <div
         style={{
           display: "flex",
-          justifyContent: "center",
+          justifyContent: "space-around", // Adjust as per your preference
           alignItems: "center",
+          flexWrap: "wrap", // Allow cards to wrap if they exceed the container's width
+          gap: "20px", // Add gap between cards
           height: "70vh",
           // backgroundImage: 'url("public\bglaw.jpg")',
           backgroundSize: "cover",
           backgroundColor: "rgba(219, 202, 247, 0.8)",
-          opacity:"5",
         }}
       >
         <Lawcard
@@ -93,7 +108,7 @@ const Home = () => {
           text="Children have the right to an education. School is
           a great place for children to learn about their
           world, and decide how they might want to change
-          it, so that it’s better for everybody.."
+          it, so that it’s better for everybody.."
           buttonLink="/page1"
         />
         <Lawcard
@@ -115,6 +130,7 @@ const Home = () => {
           buttonLink="/page1"
         />
       </div>
+      <Footer />
     </>
   );
 };

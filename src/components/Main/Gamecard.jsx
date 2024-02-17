@@ -13,14 +13,9 @@ function Gamecard() {
             className="card-img-top"
             alt="..."
           />
-          <div className="card-body">
+          <div className="card-body d-flex flex-column justify-content-between">
             <h5 className="card-title">SpellBee</h5>
-            <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            {/* Replaced <a> tag with <Link> component */}
-            <Link to="/play" className="btn btn-primary">
+            <Link to="/play" className="btn btn-primary align-self-center">
               Play Now
             </Link>
           </div>
@@ -29,20 +24,11 @@ function Gamecard() {
         {/* card2 game 2 */}
         <div className="card mb-3" style={{ width: "18rem" }}>
           <img src="public\tictac.jpg" className="card-img-top" alt="..." />
-          <div className="card-body">
+          <div className="card-body d-flex flex-column justify-content-between">
             <h5 className="card-title">Tic-Tac-Toe</h5>
-            <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
             <a
               href="sandbox.html"
-              className="btn btn-primary "
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
+              className="btn btn-primary align-self-center"
             >
               Play Nicely
             </a>
@@ -54,14 +40,9 @@ function Gamecard() {
             className="card-img-top"
             alt="..."
           />
-          <div className="card-body">
+          <div className="card-body d-flex flex-column justify-content-between">
             <h5 className="card-title">Quiz</h5>
-            <p className="card-text">
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </p>
-            {/* Replaced <a> tag with <Link> component */}
-            <Link to="/playQuiz" className="btn btn-primary">
+            <Link to="/playQuiz" className="btn btn-primary align-self-center">
               Play Now
             </Link>
           </div>
