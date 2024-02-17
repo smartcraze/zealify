@@ -9,6 +9,8 @@ import Home from './components/Main/Home';
 import Gamecard from './components/Main/Gamecard';
 import Games from './components/Main/Games';
 import Ticktactoe from './components/Main/Tictactoe';
+import MainQuiz from './components/Quize/MainQuiz';
+
 
 function App() {
 const router=createBrowserRouter([
@@ -31,6 +33,10 @@ const router=createBrowserRouter([
   {
     path:"/playTictac",
     element: <> <Navbar/><Ticktactoe/></>
+  },
+  {
+    path:"/playQuiz",
+    element: <> <Navbar/><MainQuiz/></>
   },
   {
     path:"/games",
