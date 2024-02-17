@@ -69,7 +69,7 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <div className="Container">
+      <div className="Container ">
         <h1 className="container text-purple" style={{ textAlign: "center" }}>
           Laws of Child
         </h1>
@@ -97,19 +97,19 @@ const Home = () => {
           buttonLink="/page1"
         />
         <Lawcard
-          imageUrl="public\law1.jpg"
+          imageUrl="public\playlaw.jpg"
           title="Right to Play"
           text="Children have the right to play. It's vital for learning problem-solving skills and fostering collaboration when they play together. Let kids play freely.When children play together, they learn!             "
           buttonLink="/page1"
         />
         <Lawcard
-          imageUrl="public\law1.jpg"
+          imageUrl="public\rightsay.jpg"
           title="Right to Say"
           text="The right to say and be heard is one of the most important rights we have. It means that every person has the freedom to express their thoughts, feelings, and opinions without fear."
           buttonLink="/page1"
         />
         <Lawcard
-          imageUrl="public\law1.jpg"
+          imageUrl="public/laweqal.jpg"
           title="Right to Equality"
           text="The right to equality is a fundamental principle that ensures that all individuals are treated fairly and without discrimination. It means that everyone, regardless of their race, gender are same."
           buttonLink="/page1"

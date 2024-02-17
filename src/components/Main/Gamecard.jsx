@@ -7,7 +7,7 @@ function Gamecard() {
     <>
       {/* game1 */}
       <div className="d-flex flex-wrap justify-content-around ">
-        <div className="card" style={{ width: "18rem" }}>
+        <div className="card mb-3" style={{ width: "18rem" }}>
           <img
             src="public\poster-game.jpg"
             className="card-img-top"
@@ -27,7 +27,7 @@ function Gamecard() {
         </div>
 
         {/* card2 game 2 */}
-        <div className="card" style={{ width: "18rem" }}>
+        <div className="card mb-3" style={{ width: "18rem" }}>
           <img src="public\tictac.jpg" className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">Tic-Tac-Toe</h5>
@@ -48,10 +48,7 @@ function Gamecard() {
             </a>
           </div>
         </div>
-      </div>
-      {/* card 3 */}
-      <div className="d-flex flex-wrap justify-content-around ">
-        <div className="card" style={{ width: "18rem" }}>
+        <div className="card mb-3" style={{ width: "18rem" }}>
           <img
             src="public\Quizeposter.jpg"
             className="card-img-top"
@@ -60,8 +57,8 @@ function Gamecard() {
           <div className="card-body">
             <h5 className="card-title">Quiz</h5>
             <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
             </p>
             {/* Replaced <a> tag with <Link> component */}
             <Link to="/playQuiz" className="btn btn-primary">
@@ -70,6 +67,7 @@ function Gamecard() {
           </div>
         </div>
       </div>
+      {/* card 3 */}
     </>
   );
 }
