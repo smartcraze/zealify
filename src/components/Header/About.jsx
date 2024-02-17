@@ -12,46 +12,46 @@ const AboutPage = () => {
           {/* Profile Cards */}
           <div className="col-md-2 mb-4">
             <Card>
-              <Card.Img variant="top" src="https://via.placeholder.com/150" />
+              <Card.Img variant="top" src="public\suraj.jpg" />
               <Card.Body>
-                <Card.Title>John Doe</Card.Title>
+                <Card.Title>Suraj Vishwakarma</Card.Title>
                 <Card.Text>Developer</Card.Text>
               </Card.Body>
             </Card>
           </div>
           <div className="col-md-2 mb-4">
             <Card>
-              <Card.Img variant="top" src="https://via.placeholder.com/150" />
+              <Card.Img variant="top" src="public\zap.jpg" />
               <Card.Body>
-                <Card.Title>Jane Smith</Card.Title>
+                <Card.Title>Zap</Card.Title>
                 <Card.Text>Designer</Card.Text>
               </Card.Body>
             </Card>
           </div>
           <div className="col-md-2 mb-4">
             <Card>
-              <Card.Img variant="top" src="https://via.placeholder.com/150" />
+              <Card.Img variant="top" src="public\parna.jpg" />
               <Card.Body>
-                <Card.Title>Alice Johnson</Card.Title>
+                <Card.Title>Parna Ghosh</Card.Title>
                 <Card.Text>Tester</Card.Text>
               </Card.Body>
             </Card>
           </div>
           <div className="col-md-2 mb-4">
             <Card>
-              <Card.Img variant="top" src="https://via.placeholder.com/150" />
+              <Card.Img variant="top" src="public\sayan.jpg" />
               <Card.Body>
-                <Card.Title>Bob Williams</Card.Title>
-                <Card.Text>Project Manager</Card.Text>
+                <Card.Title>Sayan nayek</Card.Title>
+                <Card.Text>Research</Card.Text>
               </Card.Body>
             </Card>
           </div>
           <div className="col-md-2 mb-4">
             <Card>
-              <Card.Img variant="top" src="https://via.placeholder.com/150" />
+              <Card.Img variant="top" src="public\chaitanya.jpg" />
               <Card.Body>
-                <Card.Title>Eve Brown</Card.Title>
-                <Card.Text>Marketing</Card.Text>
+                <Card.Title> P Chaitanya</Card.Title>
+                <Card.Text>Research</Card.Text>
               </Card.Body>
             </Card>
           </div>

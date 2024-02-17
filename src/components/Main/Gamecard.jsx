@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 function Gamecard() {
   return (
     <>
-      {/* game1 */}
-      <div className="d-flex flex-wrap justify-content-around  " style={{backgroundColor:"orange"}}>
+      {/* Existing games */}
+      <div className="d-flex flex-wrap justify-content-around" style={{backgroundColor:"orange"}}>
         <div className="card mb-3" style={{ width: "18rem" }}>
           <img
             src="public\poster-game.jpg"
@@ -14,18 +14,17 @@ function Gamecard() {
             alt="..."
           />
           <div className="card-body d-flex flex-column justify-content-between">
-            <h5 className="card-title">Law</h5>
+            <h5 className="card-title">Right to say & Be heard</h5>
             <Link to="/play" className="btn btn-primary align-self-center">
               Play Now
             </Link>
           </div>
         </div>
 
-        {/* card2 game 2 */}
         <div className="card mb-3" style={{ width: "18rem" }}>
           <img src="public\tictac.jpg" className="card-img-top" alt="..." />
           <div className="card-body d-flex flex-column justify-content-between">
-            <h5 className="card-title">Tic-Tac-Toe</h5>
+            <h5 className="card-title">Creativity</h5>
             <a
               href="sandbox.html"
               className="btn btn-primary align-self-center"
@@ -34,6 +33,7 @@ function Gamecard() {
             </a>
           </div>
         </div>
+
         <div className="card mb-3" style={{ width: "18rem" }}>
           <img
             src="public\Quizeposter.jpg"
@@ -41,14 +41,53 @@ function Gamecard() {
             alt="..."
           />
           <div className="card-body d-flex flex-column justify-content-between">
-            <h5 className="card-title">Quiz</h5>
+            <h5 className="card-title">Quiz Game Based on Law</h5>
             <Link to="/playQuiz" className="btn btn-primary align-self-center">
               Play Now
             </Link>
           </div>
         </div>
       </div>
-      
+
+      {/* Developing phase games */}
+      {/* <h1 className="container " style={{textAlign:"center"}}> Developing phase</h1> */}
+      <div className="d-flex flex-wrap justify-content-around" style={{backgroundColor:"lightblue"}}>
+        <div className="card mb-3" style={{ width: "18rem" }}>
+          <img
+            src="public\game1.jpg"
+            className="card-img-top"
+            alt="Game in development"
+          />
+          <div className="card-body d-flex flex-column justify-content-between">
+            <h5 className="card-title">Right to development</h5>
+            <p className="card-text">In Development</p>
+          </div>
+        </div>
+
+        <div className="card mb-3" style={{ width: "18rem" }}>
+          <img
+            src="public\game2.jpg"
+            className="card-img-top"
+            alt="Game in development"
+          />
+          <div className="card-body d-flex flex-column justify-content-between">
+            <h5 className="card-title">Right to Health</h5>
+            <p className="card-text">In Development</p>
+          </div>
+        </div>
+
+        <div className="card mb-3" style={{ width: "18rem" }}>
+          <img
+            src="public\game3.jpg"
+            className="card-img-top"
+            alt="Game in development"
+          />
+          <div className="card-body d-flex flex-column justify-content-between">
+            <h5 className="card-title">Right to Equality</h5>
+            <p className="card-text">In Development</p>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

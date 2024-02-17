@@ -1,112 +1,112 @@
 [
     {
         "id": "01",
-        "question": "If you see someone being left out while playing, what can you do?",
+        "question": "What is the right to play and why is it important for children?",
         "options": [
-            "Laugh at them",
-            "Join in and exclude them too",
-            "Invite them to play with you",
-            "Ignore them"
+            "To study",
+            "To have fun and relax",
+            "To clean the house",
+            "To cook meals"
         ],
-        "answer": "Invite them to play with you"
+        "answer": "To have fun and relax"
     },
     {
         "id": "02",
-        "question": "Why do you think every kid should be able to go to school?",
+        "question": "Why do children have the right to go to school and learn new things?",
         "options": [
-            "To make Friends",
+            "To sleep",
+            "To make friends",
             "To learn new things",
-            "To play games",
-            "All of the above"
+            "To watch TV all day"
         ],
-        "answer": "All of the above"
+        "answer": "To learn new things"
     },
     {
         "id": "03",
-        "question": "What is the best part of school?",
+        "question": "How does the right to safety help children stay protected from harm?",
         "options": [
-            "Going home time",
-            "Lunch time",
-            "Learning new things",
-            "Cleaning time"
+            "To play unsupervised outside",
+            "To wear a helmet while riding a bike",
+            "To eat junk food",
+            "To wander alone in unfamiliar places"
         ],
-        "answer": "Learning new things"
+        "answer": "To wear a helmet while riding a bike"
     },
     {
         "id": "04",
-        "question": "Why should you listen to your teacher at school?",
+        "question": "Why is it important for children to have the right to express their thoughts and feelings?",
         "options": [
-            "Because they tell interesting stories",
-            "Because they teach new things",
-            "Because they give homework",
-            "Because they cook lunch"
+            "To eat snacks",
+            "To express happiness and sadness",
+            "To ignore others",
+            "To break toys"
         ],
-        "answer": "Because they teach new things"
+        "answer": "To express happiness and sadness"
     },
     {
         "id": "05",
-        "question": "What is the best way to learn new things?",
+        "question": "What does the right to healthcare mean for children and why is it important?",
         "options": [
-            "By sleeping",
-            "By watching TV",
-            "By going to school",
-            "By eating lunch"
+            "To eat candies all day",
+            "To visit the doctor for check-ups",
+            "To watch cartoons all day",
+            "To sleep all day"
         ],
-        "answer": "By going to school"
+        "answer": "To visit the doctor for check-ups"
     },
     {
         "id": "06",
-        "question": "What can you learn from playing games?",
+        "question": "How does the right to food ensure that children have enough to eat and stay healthy?",
         "options": [
-            "How to cook",
-            "How to clean",
-            "How to share and work in a team",
-            "How to drive a car"
+            "To eat only desserts",
+            "To have balanced meals",
+            "To skip meals",
+            "To eat only junk food"
         ],
-        "answer": "How to share and work in a team"
+        "answer": "To have balanced meals"
     },
     {
         "id": "07",
-        "question": "Why is playtime important for kids?",
+        "question": "Why is the right to family and parental care important for children's well-being?",
         "options": [
-            "It helps us learn",
-            "It helps us relax",
-            "It helps us make friends",
-            "It helps us sleep"
+            "To stay alone at home",
+            "To have a loving family and caring parents",
+            "To live in orphanages",
+            "To stay with strangers"
         ],
-        "answer": "It helps us learn"
+        "answer": "To have a loving family and caring parents"
     },
     {
         "id": "08",
-        "question": "What is the declarative way to render a dynamic list of components based on values in an array?",
+        "question": "What does the right to rest and leisure mean for children and why is it essential?",
         "options": [
-            "So you can play outside safely",
-            "So you can throw trash everywhere",
-            "So you can draw on the walls",
-            "So you can leave your toys everywhere"
+            "To work all day",
+            "To rest and play",
+            "To study all day",
+            "To watch TV all day"
         ],
-        "answer": "So you can play outside safely"
+        "answer": "To rest and play"
     },
     {
         "id": "09",
-        "question": "What does it mean to have the right to participate?",
+        "question": "How does the right to clean water and sanitation contribute to children's health?",
         "options": [
-            "You can join in games and activities",
-            "You can watch TV all day",
-            "You can eat all the candy",
-            "You can stay up as late as you want"
+            "To drink contaminated water",
+            "To have access to clean water and sanitation facilities",
+            "To drink only soda",
+            "To play in dirty water"
         ],
-        "answer": "You can join in games and activities."
+        "answer": "To have access to clean water and sanitation facilities"
     },
     {
         "id": "10",
-        "question": "Why do you have the right to be loved and cared for?",
+        "question": "Why do children have the right to be protected from violence, abuse, and neglect?",
         "options": [
-            "So you can feel happy",
-            "So you can get lots of presents",
-            "So you can stay up late",
-            "So you can eat lots of candy"
+            "To be exposed to violence",
+            "To be treated with care and respect",
+            "To stay in unsafe environments",
+            "To experience neglect"
         ],
-        "answer": "So you can feel happy"
+        "answer": "To be treated with care and respect"
     }
 ]
