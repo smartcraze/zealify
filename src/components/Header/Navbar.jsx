@@ -14,13 +14,17 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link" to="/home">Home</Link> 
+              <Link style={{
+                fontSize:"20px",fontWeight:"bolder"}} className="nav-link font-weight-bold" to="/home">Home</Link> 
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/games">Games</Link> 
+              <Link className="nav-link font-weight-bold" to="/games" style={{
+                fontSize:"20px",fontWeight:"bolder"}}>Games</Link> 
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/about">About</Link>
+            <li className="nav-item font-weight-bold">
+              <Link className="nav-link font-weight-bold" to="/about" style={{
+                fontSize:"20px",fontWeight:"bolder"
+              }}>About</Link>
             </li>
           </ul>
           <form className="d-flex" role="search">
