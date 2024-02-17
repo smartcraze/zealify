@@ -17,8 +17,7 @@ const Home = () => {
       <div
         id="carouselExampleControls"
         className="carousel slide"
-        style={{ height: "70vh" ,
-           backgroundColor:"red"                               }}
+        style={{ height: "70vh", backgroundColor: "red" }}
         data-bs-ride="carousel"
       >
         <div className="carousel-inner" style={{ height: "100%" }}>
@@ -82,7 +81,10 @@ const Home = () => {
           justifyContent: "center",
           alignItems: "center",
           height: "70vh",
-          backgroundColor: "#ebcfa0",
+          // backgroundImage: 'url("public\bglaw.jpg")',
+          backgroundSize: "cover",
+          backgroundColor: "rgba(219, 202, 247, 0.8)",
+          opacity:"5",
         }}
       >
         <Lawcard
@@ -96,29 +98,20 @@ const Home = () => {
         />
         <Lawcard
           imageUrl="public\law1.jpg"
-          title="Right to Education"
-          text="Children have the right to an education. School is
-          a great place for children to learn about their
-          world, and decide how they might want to change
-          it, so that it’s better for everybody.."
+          title="Right to Play"
+          text="Children have the right to play. It's vital for learning problem-solving skills and fostering collaboration when they play together. Let kids play freely.When children play together, they learn!             "
           buttonLink="/page1"
         />
         <Lawcard
           imageUrl="public\law1.jpg"
-          title="Right to Education"
-          text="Children have the right to an education. School is
-          a great place for children to learn about their
-          world, and decide how they might want to change
-          it, so that it’s better for everybody.."
+          title="Right to Say"
+          text="The right to say and be heard is one of the most important rights we have. It means that every person has the freedom to express their thoughts, feelings, and opinions without fear."
           buttonLink="/page1"
         />
         <Lawcard
           imageUrl="public\law1.jpg"
-          title="Right to Education"
-          text="Children have the right to an education. School is
-          a great place for children to learn about their
-          world, and decide how they might want to change
-          it, so that it’s better for everybody.."
+          title="Right to Equality"
+          text="The right to equality is a fundamental principle that ensures that all individuals are treated fairly and without discrimination. It means that everyone, regardless of their race, gender are same."
           buttonLink="/page1"
         />
       </div>
