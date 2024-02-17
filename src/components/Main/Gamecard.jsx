@@ -6,7 +6,7 @@ function Gamecard() {
   return (
     <>
       {/* game1 */}
-      <div className="d-flex flex-wrap justify-content-around ">
+      <div className="d-flex flex-wrap justify-content-around  " style={{backgroundColor:"orange"}}>
         <div className="card mb-3" style={{ width: "18rem" }}>
           <img
             src="public\poster-game.jpg"
@@ -14,7 +14,7 @@ function Gamecard() {
             alt="..."
           />
           <div className="card-body d-flex flex-column justify-content-between">
-            <h5 className="card-title">SpellBee</h5>
+            <h5 className="card-title">Law</h5>
             <Link to="/play" className="btn btn-primary align-self-center">
               Play Now
             </Link>
@@ -48,7 +48,7 @@ function Gamecard() {
           </div>
         </div>
       </div>
-      {/* card 3 */}
+      
     </>
   );
 }
