@@ -39,10 +39,9 @@ function Gamecard() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              {/* Replaced <a> tag with <Link> component */}
-              <Link to="/playTictac" className="btn btn-primary">
-                Play Now
-              </Link>
+              <a href="sandbox.html" className="btn btn-primary " style={{
+                display:"flex",justifyContent:"center",alignItems:"center"
+              }}>Play Nicely</a>
             </div>
           </div>
         </div>
