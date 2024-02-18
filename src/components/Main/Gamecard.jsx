@@ -9,7 +9,7 @@ function Gamecard() {
       <div className="d-flex flex-wrap justify-content-around" style={{backgroundColor:"orange"}}>
         <div className="card mb-3" style={{ width: "18rem" }}>
           <img
-            src="public\poster-game.jpg"
+            src="src\assets\poster-game.jpg"
             className="card-img-top"
             alt="..."
           />
@@ -22,7 +22,7 @@ function Gamecard() {
         </div>
 
         <div className="card mb-3" style={{ width: "18rem" }}>
-          <img src="public\tictac.jpg" className="card-img-top" alt="..." />
+          <img src="src\assets\tictac.jpg" className="card-img-top" alt="..." />
           <div className="card-body d-flex flex-column justify-content-between">
             <h5 className="card-title">Creativity</h5>
             <a
@@ -36,7 +36,7 @@ function Gamecard() {
 
         <div className="card mb-3" style={{ width: "18rem" }}>
           <img
-            src="public\Quizeposter.jpg"
+            src="src\assets\Quizeposter.jpg"
             className="card-img-top"
             alt="..."
           />
@@ -54,7 +54,7 @@ function Gamecard() {
       <div className="d-flex flex-wrap justify-content-around" style={{backgroundColor:"lightblue"}}>
         <div className="card mb-3" style={{ width: "18rem" }}>
           <img
-            src="public\game1.jpg"
+            src="src\assets\game1.jpg"
             className="card-img-top"
             alt="Game in development"
           />
@@ -66,7 +66,7 @@ function Gamecard() {
 
         <div className="card mb-3" style={{ width: "18rem" }}>
           <img
-            src="public\game2.jpg"
+            src="src\assets\game2.jpg"
             className="card-img-top"
             alt="Game in development"
           />
@@ -78,7 +78,7 @@ function Gamecard() {
 
         <div className="card mb-3" style={{ width: "18rem" }}>
           <img
-            src="public\game3.jpg"
+            src="src\assets\game3.jpg"
             className="card-img-top"
             alt="Game in development"
           />
