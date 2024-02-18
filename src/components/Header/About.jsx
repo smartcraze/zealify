@@ -76,14 +76,18 @@ const AboutPage = () => {
               This project was created to provide an innovative solution for
               [describe project purpose]. We aim to [mention project goals].
             </p>
-            <Button
-              href="https://github.com/smartcraze/Allies"
-              target="_blank"
-              variant="primary"
-              className="mt-3 px-4 py-2"
-            >
-              <FontAwesomeIcon icon={faGithub} /> GitHub Repository
-            </Button>
+            <div className="text-center mt-6">
+              <Button
+              style={{margin:"20px",padding:"10px"}}
+                href="https://github.com/smartcraze/Allies"
+                target="_blank"
+                variant="primary"
+                className="px-4 py-1 container bg-gray-800 text-white rounded-md shadow-md hover:bg-gray-700"
+              >
+                <FontAwesomeIcon icon={faGithub} className="mr-2" /> GitHub
+                Repository
+              </Button>
+            </div>
           </div>
         </div>
       </div>
