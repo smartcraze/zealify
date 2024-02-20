@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bg-info">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          <img src="src\assets\zeal.png" style={{height:"50px", widows:"50px"}} alt="Logo" />
+          <img src="/zeal.png" style={{height:"50px", widows:"50px"}} alt="Logo" />
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

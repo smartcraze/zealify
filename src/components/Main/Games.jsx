@@ -57,7 +57,7 @@ function Games() {
           onEnded={handleVideoEnded}
           key={number}
         >
-          <source src={`src\assets\level1/vid${number}.mp4`} type="video/mp4" />
+          <source src={` \level1/vid${number}.mp4`} type="video/mp4" />
         </video>
         <div className="m-5 p-5">
           <button

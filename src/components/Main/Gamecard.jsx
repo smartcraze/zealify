@@ -9,7 +9,7 @@ function Gamecard() {
       <div className="d-flex flex-wrap justify-content-around" style={{backgroundColor:"orange"}}>
         <div className="card mb-3" style={{ width: "18rem" }}>
           <img
-            src="src\assets\poster-game.jpg"
+            src="\poster-game.jpg"
             className="card-img-top"
             alt="..."
           />
@@ -22,7 +22,7 @@ function Gamecard() {
         </div>
 
         <div className="card mb-3" style={{ width: "18rem" }}>
-          <img src="src\assets\tictac.jpg" className="card-img-top" alt="..." />
+          <img src="\tictac.jpg" className="card-img-top" alt="..." />
           <div className="card-body d-flex flex-column justify-content-between">
             <h5 className="card-title">Creativity</h5>
             <a
@@ -36,7 +36,7 @@ function Gamecard() {
 
         <div className="card mb-3" style={{ width: "18rem" }}>
           <img
-            src="src\assets\Quizeposter.jpg"
+            src="\Quizeposter.jpg"
             className="card-img-top"
             alt="..."
           />
@@ -54,7 +54,7 @@ function Gamecard() {
       <div className="d-flex flex-wrap justify-content-around" style={{backgroundColor:"lightblue"}}>
         <div className="card mb-3" style={{ width: "18rem" }}>
           <img
-            src="src\assets\game1.jpg"
+            src=" \game1.jpg"
             className="card-img-top"
             alt="Game in development"
           />
@@ -66,7 +66,7 @@ function Gamecard() {
 
         <div className="card mb-3" style={{ width: "18rem" }}>
           <img
-            src="src\assets\game2.jpg"
+            src=" \game2.jpg"
             className="card-img-top"
             alt="Game in development"
           />
@@ -78,7 +78,7 @@ function Gamecard() {
 
         <div className="card mb-3" style={{ width: "18rem" }}>
           <img
-            src="src\assets\game3.jpg"
+            src=" \game3.jpg"
             className="card-img-top"
             alt="Game in development"
           />

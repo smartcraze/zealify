@@ -12,7 +12,7 @@ const AboutPage = () => {
           {/* Profile Cards */}
           <div className="col-md-2 mb-4">
             <Card>
-              <Card.Img variant="top" src="src\assets\suraj.jpg" />
+              <Card.Img variant="top" src="suraj.jpg" />
               <Card.Body>
                 <Card.Title>Suraj Vishwakarma</Card.Title>
                 <Card.Text>Developer</Card.Text>
@@ -21,7 +21,7 @@ const AboutPage = () => {
           </div>
           <div className="col-md-2 mb-4">
             <Card>
-              <Card.Img variant="top" src="src\assets\zap.jpg" />
+              <Card.Img variant="top" src=" zap.jpg" />
               <Card.Body>
                 <Card.Title>Zap</Card.Title>
                 <Card.Text>Designer</Card.Text>
@@ -30,7 +30,7 @@ const AboutPage = () => {
           </div>
           <div className="col-md-2 mb-4">
             <Card>
-              <Card.Img variant="top" src="src\assets\parna.jpg" />
+              <Card.Img variant="top" src=" parna.jpg" />
               <Card.Body>
                 <Card.Title>Parna Ghosh</Card.Title>
                 <Card.Text>Tester</Card.Text>
@@ -39,7 +39,7 @@ const AboutPage = () => {
           </div>
           <div className="col-md-2 mb-4">
             <Card>
-              <Card.Img variant="top" src="src\assets\sayan.jpg" />
+              <Card.Img variant="top" src=" sayan.jpg" />
               <Card.Body>
                 <Card.Title>Sayan nayek</Card.Title>
                 <Card.Text>Research</Card.Text>
@@ -48,7 +48,7 @@ const AboutPage = () => {
           </div>
           <div className="col-md-2 mb-4">
             <Card>
-              <Card.Img variant="top" src="src\assets\chaitanya.jpg" />
+              <Card.Img variant="top" src=" chaitanya.jpg" />
               <Card.Body>
                 <Card.Title> P Chaitanya</Card.Title>
                 <Card.Text>Research</Card.Text>

@@ -24,7 +24,7 @@ const Home = () => {
         <div className="carousel-inner" style={{ height: "100%" }}>
           <div className={`carousel-item ${activeIndex === 0 ? "active" : ""}`}>
             <img
-              src="src\assets\backgcar.jpg"
+              src="\backgcar.jpg"
               className="d-block w-100"
               alt="Slide 1"
               style={{ height: "100%", objectFit: "cover" }}
@@ -32,7 +32,7 @@ const Home = () => {
           </div>
           <div className={`carousel-item ${activeIndex === 1 ? "active" : ""}`}>
             <img
-              src="src\assets\carousel (2).jpg"
+              src="\carousel (2).jpg"
               className="d-block w-100"
               alt="Slide 2"
               style={{ height: "100%", objectFit: "cover" }}
@@ -40,7 +40,7 @@ const Home = () => {
           </div>
           <div className={`carousel-item ${activeIndex === 2 ? "active" : ""}`}>
             <img
-              src="src\assets\img1.jpg"
+              src="\img1.jpg"
               className="d-block w-100"
               alt="Slide 3"
               style={{ height: "100%", objectFit: "cover" }}
@@ -96,13 +96,13 @@ const Home = () => {
           flexWrap: "wrap", // Allow cards to wrap if they exceed the container's width
           gap: "20px", // Add gap between cards
           height: "70vh",
-          // backgroundImage: 'url("src\assets\bglaw.jpg")',
+          // backgroundImage: 'url(" \bglaw.jpg")',
           backgroundSize: "cover",
           backgroundColor: "rgba(245, 40, 145, 0.8)",
         }}
       >
         <Lawcard
-          imageUrl="src\assets\law1.jpg"
+          imageUrl=" \law1.jpg"
           title="Right to Education"
           text="Children have the right to an education. School is
           a great place for children to learn about their
@@ -111,19 +111,19 @@ const Home = () => {
           buttonLink="/page1"
         />
         <Lawcard
-          imageUrl="src\assets\playlaw.jpg"
+          imageUrl=" \playlaw.jpg"
           title="Right to Play"
           text="Children have the right to play. It's vital for learning problem-solving skills and fostering collaboration when they play together. Let kids play freely.When children play together, they learn!             "
           buttonLink="/page1"
         />
         <Lawcard
-          imageUrl="src\assets\rightsay.jpg"
+          imageUrl=" \rightsay.jpg"
           title="Right to Say"
           text="The right to say and be heard is one of the most important rights we have. It means that every person has the freedom to express their thoughts, feelings, and opinions without fear."
           buttonLink="/page1"
         />
         <Lawcard
-          imageUrl="src\assets\laweqal.jpg"
+          imageUrl=" \laweqal.jpg"
           title="Right to Equality"
           text="The right to equality is a fundamental principle that ensures that all individuals are treated fairly and without discrimination. It means that everyone, regardless of their race, gender are same."
           buttonLink="/page1"
