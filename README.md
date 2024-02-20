@@ -1,7 +1,6 @@
 # Zeal: Learning Law and Rights Through Games
 
-![Zeal Logo](public\zeal.png)
-
+![Zeal Logo](zeal.png)
 ## Introduction
 Zeal is a web application built using React.js aimed at educating children about law and their rights through interactive games. This project focuses on making learning fun and engaging for kids while instilling important knowledge about legal concepts.
 
@@ -18,6 +17,7 @@ Zeal is a web application built using React.js aimed at educating children about
 ## Getting Started
 To run Zeal locally, follow these steps:
 
+<!-- ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here) -->
 1. Clone this repository: `git clone https://github.com/smartcraze/Allies.git`
 2. Navigate to the project directory: `cd Allies`
 3. Install dependencies: `npm install`
