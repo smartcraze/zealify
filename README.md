@@ -27,15 +27,12 @@ To run Zeal locally, follow these steps:
 ## Contributing
 Contributions to Zeal are welcome! If you have ideas for new features, improvements, or bug fixes, please submit a pull request. Before contributing, please review the [contribution guidelines](CONTRIBUTING.md).
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
-## Authors
+## Contributors 
 - Suraj Vishwakarma
 - Parna Ghosh
 - ShaikZaheed Ahmed
 - Sayan Nayek
 - P Naga Chaitanya 
--Special Thanks To @WebDevHarsha for Helping and Contributing 
+- Special Thanks To @WebDevHarsha for Helping and Contributing 
 ## Acknowledgments
 We would like to express our gratitude to Hack IoT, organized by LPU, for providing the platform and opportunity to work on this project. Special thanks to the mentors and organizers for their guidance and support throughout the hackathon.
