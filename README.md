@@ -1,7 +1,8 @@
 # Zeal: Learning Law and Rights Through Games
 
 ![Zeal Logo](zeal.png)
-![Zealify Youtube](https://youtu.be/YrS_cKG54fQ?si=xIDHE8YZzTQbSbg7)
+[![Zealify Youtube](https://img.youtube.com/vi/YrS_cKG54fQ/maxresdefault.jpg)](https://youtu.be/YrS_cKG54fQ?si=xIDHE8YZzTQbSbg7)
+
 ## Introduction
 Zeal is a web application built using React.js aimed at educating children about law and their rights through interactive games. This project focuses on making learning fun and engaging for kids while instilling important knowledge about legal concepts.
 
